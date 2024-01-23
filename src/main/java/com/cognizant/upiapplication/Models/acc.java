@@ -10,7 +10,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-@Document // mongodb document
+@Document(collection = "accounts") // mongodb document
 public class acc {
     @Id
     private String id;
